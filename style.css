@@ -1,0 +1,184 @@
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1A2421; /* Dark Jungle Green */
+  color: #EAEAEA; /* Soft Off-White */
+}
+
+/* Profile Header */
+.profile-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #333366; /* Deep Koamaru */
+  color: #FFD700; /* Golden Yellow */
+}
+
+.profile-header .profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid #FFD700;
+  margin-bottom: 15px;
+}
+
+.profile-header .name {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.profile-header .college-name {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.profile-header .contact-info {
+  margin-top: 15px;
+}
+
+.profile-header .contact-info a {
+  color: #FFD700;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.profile-header .contact-info a:hover {
+  color: #F2BA49; /* Maximum Yellow Red */
+}
+
+.profile-header .contact-info i {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+/* Navigation Menu */
+.navbar {
+  background-color: #2C3531; /* Gunmetal */
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #FFD700;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar ul li a:hover {
+  color: #CB6D51; /* Copper Red */
+}
+
+/* Content Sections */
+.content {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  color: #00A693; /* Persian Green */
+  border-bottom: 2px solid #00A693;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/* Project Section */
+.project-section {
+  background-color: #333366; /* Deep Koamaru */
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.project-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Skills Section */
+.skills-section {
+  background-color: #2C3531; /* Gunmetal */
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.skills-section ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+/* Hobbies Section */
+.hobbies-section {
+  background-color: #CB6D51; /* Copper Red */
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.hobbies-section ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a {
+  color: #00A693;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ED9121; /* Carrot Orange */
+}
+
+/* Hidden Sections */
+.hidden {
+  display: none;
+}
+
+/* Buttons (Optional, if needed) */
+button {
+  background-color: #40826D; /* Viridian Green */
+  color: #EAEAEA;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #00A693;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-header .profile-pic {
+    width: 140px;
+    height: 140px;
+  }
+
+  .navbar ul li {
+    margin: 0 10px;
+  }
+
+  .navbar ul li a {
+    font-size: 16px;
+  }
+}
